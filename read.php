@@ -25,6 +25,7 @@
     $sql = "SELECT Id
             ,Merk
             ,Model
+            ,Topsnelheid
 
             FROM DureAuto
             ORDER BY Prijs";
@@ -58,6 +59,7 @@
         <th>Id</th>
         <th>Merk</th>
         <th>Model</th>
+        <th>Topsnelheid</th>
         <th></th>
         <th></th>   
     </thead>
