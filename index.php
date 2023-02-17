@@ -29,7 +29,7 @@
             ,Prijs
 
             FROM DureAuto
-            ORDER BY Id";
+            ORDER BY Prijs DESC";
 
     // 5. We bereiden de query voor met de method prepare()
     $statement = $pdo->prepare($sql);
