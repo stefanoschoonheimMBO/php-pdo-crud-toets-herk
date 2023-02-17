@@ -26,6 +26,7 @@
             ,Merk
             ,Model
             ,Topsnelheid
+            ,Prijs
 
             FROM DureAuto
             ORDER BY Prijs";
@@ -60,6 +61,7 @@
         <th>Merk</th>
         <th>Model</th>
         <th>Topsnelheid</th>
+        <th>Prijs</th>
         <th></th>
         <th></th>   
     </thead>
