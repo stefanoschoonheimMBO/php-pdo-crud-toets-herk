@@ -24,6 +24,7 @@
     // 4. Maak een select query voor het opvragen van de gegevens.
     $sql = "SELECT Id
             ,Merk
+            ,Model
 
             FROM DureAuto
             ORDER BY Prijs";
@@ -56,6 +57,7 @@
     <thead>
         <th>Id</th>
         <th>Merk</th>
+        <th>Model</th>
         <th></th>
         <th></th>   
     </thead>
